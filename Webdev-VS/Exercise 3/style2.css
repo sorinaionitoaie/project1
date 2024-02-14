@@ -1,0 +1,45 @@
+*{
+  margin: 10;
+  padding: 5;
+  box-sizing: border-box;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+.main-container{
+    display: inline-block;
+}
+.img-container{
+    float: left;
+    width: 20;
+}
+
+
+#first{
+    background-color: red;
+}
+#second{
+    background-color: green;
+}
+#third{
+    background-color: yellowgreen;
+}
+#fourth{
+    background-color: aqua;
+}
+p span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol {
+list-style-type: upper-roman;
+}
+
+ul {
+list-style-type: square;
+}
+a{
+    color: rgb(43, 46, 226);
+}
