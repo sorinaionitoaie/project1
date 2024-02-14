@@ -1,0 +1,105 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Java section -->
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/contact.js"></script>
+</head>
+
+<body>
+    <header class="bg-image headback">
+        <div>
+            <p class="logo"><a href="index.html"><img class="imgl" src="images/logo.png"></a></p>
+            <h1>Magicians Cloud</h1>
+            <p>Explore our offerings and let the magic unfold... Your source for magical experiences in the cloud!</p>
+        </div>
+    </header>
+    <nav>
+        <ul id="meniu">
+            <li id="HoriaId" class="tab" onclick="showTab('Horia', 'HoriaId')">Horia</li>
+            <li id="RazvanId" class="tab" onclick="showTab('Razvan', 'RazvanId', 'titluid')">Razvan</li>
+            <li id="SorinId" class="tab" onclick="showTab('Sorin', 'SorinId', 'titluid')">Sorin</li>
+            <li id="IulianId" class="tab" onclick="showTab('Iulian', 'IulianId', 'titluid')">Iulian</li>
+        </ul>
+    </nav>
+    <section id="mesaj">
+        <div></div>
+    </section>
+    <section id="titluid" class="titlu">
+        <div>
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+    <section class="container">
+        <div class="ascuns" id="Horia">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="nameH" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="emailH" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="messageH" name="message" required></textarea>
+
+                <button type="button" id="btnHoria">Submit Horia</button>
+            </form>
+        </div>
+        <div class="ascuns" id="Sorin">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="nameS" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="emailS" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="messageS" name="message" required></textarea>
+
+                <button type="button" id="btnSorin">Submit Sorin</button>
+            </form>
+        </div>
+        <div class="ascuns" id="Razvan">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="nameR" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="emailR" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="messageR" name="message" required></textarea>
+
+                <button type="button" id="btnRazvan">Submit Razvan</button>
+            </form>
+        </div>
+        <div class="ascuns" id="Iulian">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="nameI" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="emailI" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="messageI" name="message" required></textarea>
+
+                <button type="button" id="btnIulian">Submit Iulian</button>
+            </form>
+        </div>
+    </section>
+    <footer class="headback">
+        <p>&copy; 2023 Magicians Cloud. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

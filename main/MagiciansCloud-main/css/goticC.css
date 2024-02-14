@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/bg-tavan.jpg");
+}
+header {
+  background-color: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgb(7, 1, 126) 0%,
+    rgb(68, 68, 177) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.logo {
+  align-content: flex-start;
+  width: 1vh;
+  height: 1vh;
+}
+.imgl {
+  width: 14vh;
+  height: 14vh;
+}
+.headback {
+  background-color: #615f61;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  text-shadow: 0 0 3px #ffffff, 0 0 5px #ff0000;
+  height: 20vh;
+}
+
+p {
+  line-height: 1.6;
+}
+section {
+  margin: 20px;
+  max-height: 100%;
+  transition: max-height 0.2s ease-out;
+  display: flexbox;
+}
+
+.txth2 {
+  color: #444444;
+  font-size: 4vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-shadow: 0 0 6px #444, 0 0 6dvh #ffffff;
+}
+#intro {
+  position: relative;
+  left: 1px;
+  right: 70px;
+  width: 15vh;
+  height: 6vh;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+#c1 {
+  position: relative;
+  border: 10%;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+#punct1 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: red;
+  display: none;
+  border-radius: 50%;
+}
+#sec1 {
+  position: relative;
+  left: 1px;
+  right: 70px;
+  width: 450px;
+  height: 6vh;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+#pctsec1 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: red;
+  display: none;
+  border-radius: 50%;
+}
+#sec2 {
+  position: relative;
+  left: 1px;
+  right: 70px;
+  width: 260px;
+  height: 6vh;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+#pctsec2 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: red;
+  border-radius: 50%;
+}
+#c2 {
+  border: 10%;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+/* And segment animat */
+.ui-visual-focus {
+  box-shadow: 0 0 3px 1px rgb(94, 158, 214);
+}
+.text_back {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.container {
+  padding-top: 0.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  width: 30vh;
+  height: 30vh;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.footback {
+  height: 13vh;
+  background-color: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgb(7, 1, 126) 0%,
+    rgb(68, 68, 177) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
